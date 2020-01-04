@@ -2194,17 +2194,19 @@ input, select, textarea {
 /* Box */
 
 	.box.highlight {
-		text-align: center;
+		text-align: justify;
 	}
 
 		.box.highlight h2 {
 			font-size: 3em;
 			margin: 0 0 0.25em 0;
+			text-align: center;
 		}
 
 		.box.highlight header > p {
 			font-size: 1.65em;
 			margin: 0 0 1.5em 0;
+			text-align: center;
 		}
 
 	.box.feature {
@@ -2308,7 +2310,7 @@ input, select, textarea {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		padding: 2em 0;
+		padding: 1em 0 2em 0;
 		background: #fff;
 		margin: 0 auto;
 	}
@@ -2475,16 +2477,6 @@ input, select, textarea {
 			}
 
 /* Logo */
-#logo {
-	position: relative;
-	background-image: url("../../images/icon-bonsai.png");
-	background-position: top left, top left, center center;
-	background-repeat: repeat, repeat, no-repeat;
-	background-size: auto, auto, cover;
-	z-index: 1;
-	padding: 11em 0;
-}
-
 
 /* Banner */
 
@@ -2574,7 +2566,7 @@ input, select, textarea {
 
 	#footer {
 		text-align: center;
-		padding: 8em 0 8em 0;
+		padding: 4em 0 4em 0;
 	}
 
 		#footer a {
@@ -2597,7 +2589,7 @@ input, select, textarea {
 		padding: 0.75em 2em 0.75em 2em;
 		border-radius: 8px;
 		color: #8b9790;
-		margin: 4em 0 0 0;
+		margin: 2.5em 0 0 0;
 	}
 
 		#copyright a {
